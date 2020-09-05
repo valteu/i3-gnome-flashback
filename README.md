@@ -2,26 +2,25 @@
 
 Allows you to use i3 in a GNOME-Flashback session. Large parts of this are based on the existing [`i3-gnome`](https://github.com/lvillani/i3-gnome) project.
 
-This has been tested working on GNOME version **3.34**.
+This has been tested working on GNOME version **3.36**.
 
 # Installation
 
 For Arch users see the [AUR package](https://aur.archlinux.org/packages/i3-gnome-flashback/) for a more easy intallation.
 
 For Ubuntu (19.10), ensure prerequisites are installed:
+
 ```
 sudo apt install i3 gnome-flashback build-essential
 ```
+
 Then install i3-gnome-flashback:
+
 ```
 sudo make install
 ```
-And to prevent Nautilus from taking over the screen upon login, run this:
-```
-gsettings set org.gnome.desktop.background show-desktop-icons false
-```
 
-For other distributions, clone this repository and run `make install` with root priviledges.
+For other distributions, clone this repository and run `make install` with root privileges.
 
 # Notes
 
