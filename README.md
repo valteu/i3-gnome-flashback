@@ -2,7 +2,7 @@
 
 Allows you to use i3 in a GNOME-Flashback session. Large parts of this are based on the existing [`i3-gnome`](https://github.com/lvillani/i3-gnome) project.
 
-This has been tested working on GNOME version **3.36**.
+This has been tested working on GNOME version **40**.
 
 # Installation
 
